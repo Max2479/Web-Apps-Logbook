@@ -16,7 +16,7 @@ namespace ContosoUniversity.Models
             {
                 return;
             }
-
+             
             var students = new Student[]
             {
                 new Student{FirstMidName="Carson",LastName="Alexander",EnrollmentDate=DateTime.Parse("2005-09-01")},
