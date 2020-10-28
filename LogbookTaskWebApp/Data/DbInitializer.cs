@@ -10,7 +10,7 @@ namespace ContosoUniversity.Models
     {
         public static void Initialize(SchoolContext context)
         {
-            content.Database.EnsureCreated();
+            context.Database.EnsureCreated();
 
             if (context.Student.Any())
             {
